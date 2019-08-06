@@ -1,0 +1,12 @@
+{
+    "consultant": {
+      "employeeId": "${employeeId}"
+    },
+    "type": "${leaveType}",
+    "period": {
+      "startsOn": "${leaveStartDate}",
+      "startsOnHalf": false,
+      "endsOn": "${leaveEndDate}",
+      "endsOnHalf": true
+    }
+}

@@ -1,0 +1,5 @@
+target/
+.idea/
+node_modules/
+sitespeed-result/
+.DS_Store

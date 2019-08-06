@@ -1,0 +1,1 @@
+src/test/resources/bodies/** filter=git-crypt diff=git-crypt

@@ -1,0 +1,14 @@
+{
+  "browsertime": {
+    "iterations": 1,
+    "browser": "firefox"
+  },
+//  "graphite": {
+//    "host": "my.graphite.host",
+//    "namespace": "sitespeed_io.desktopFirstView"
+//  },
+  "plugins": {
+    "remove": ["html"]
+  },
+  "utc": true
+}

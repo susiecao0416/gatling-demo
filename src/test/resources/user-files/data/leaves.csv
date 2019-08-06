@@ -1,0 +1,3 @@
+employeeId,leaveType,leaveStartDate,leaveEndDate
+xxx,Personal Leave, ${leaveDate},${leaveDate}
+xxx,Annual Leave,${leaveDate},${leaveDate}

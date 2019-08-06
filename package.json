@@ -1,0 +1,22 @@
+{
+  "name": "testApp-performance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "sitespeed.io --config client-performance/config.json client-performance/scripts/login.js --multi --debug",
+    "testFirefox": "sitespeed.io src/test/client-performance/resources/urls.txt --multi -b firefox",
+    "testMobile": "sitespeed.io src/test/client-performance/resources/urls.txt -b firefox -n 1 --mobile",
+    "testMobileCustom": "sitespeed.io src/test/client-performance/resources/urls.txt --browsertime.viewPort 400x400",
+    "docker": "docker run --rm -v '$(pwd)':/sitespeed.io sitespeedio/sitespeed.io:8.6.5 --config config.json https://www.sitespeed.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.testCompany.net:techops-delivery-testApp-team/testApp-performance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sitespeed.io": "^8.6.0"
+  }
+}
