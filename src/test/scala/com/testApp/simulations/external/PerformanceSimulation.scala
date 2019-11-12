@@ -22,7 +22,7 @@ class PerformanceSimulation extends Simulation {
 
   setUp(
     // performance scenarios: get 1000 and 10,000 records
-    TestsScenarios.getPerformancesScenario.inject(atOnceUsers(1))
+    CombinationScenarios.getPerformancesScenario.inject(atOnceUsers(1))
   ).protocols(httpProtocol)
     .assertions(
       global.successfulRequests.percent.gt(95)

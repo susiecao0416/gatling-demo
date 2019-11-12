@@ -8,7 +8,7 @@ import io.gatling.core.Predef._
 import io.gatling.http.Predef.flushHttpCache
 import io.gatling.jdbc.Predef._
 
-object LeavesScenarios {
+object LeaveScenarios {
 
   //Scenario: get single page and all pages performance/functional
   var leavesFeeder = csv("user-files/data/leaves.csv")
