@@ -17,6 +17,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sitespeed.io": "^8.6.0"
+    "sitespeed.io": "^39.4.0"
   }
 }
